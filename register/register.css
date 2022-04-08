@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+    background-color:rgb(68, 166, 253);
+}
+#container_register{
+    width: 300px;
+    height: 1100px;
+    display: grid;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 80px;
+    background-color: white;
+}
+#container_options{
+    display: grid;
+    justify-content: center;
+}
+#container_buttons{
+    margin-top: 33px;
+    display: grid;
+    justify-content: center;
+}
+.buttons{
+    margin: 4px;
+}
+button{
+    color: white;
+    background-color: black;
+    width: 133px;
+    height: 36px;
+    border-radius: 5px;
+    border: none;
+}
+button:hover{
+    background-color: #367ffb;
+}
